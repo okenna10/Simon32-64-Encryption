@@ -5,8 +5,7 @@
 module tb_simon32_64();
 
 // Modify params.vh based on Your design and point to Your local directory below
-//`include "/classes/ece5746/projects/f23_final_project/params.vh"
-`include "C:/Users/oknat/Documents/Cornell_Tech/asic/final_project/modelsim/params.vh"
+`include "params.vh"
   
   
 
@@ -26,7 +25,8 @@ simon32_64 dut (
   
  
 initial begin
-  fh_in  = $fopen("C:/Users/oknat/Documents/Cornell_Tech/asic/final_project/modelsimsimon32_64.inputs", "r");
+  //put path to inputs file
+  fh_in  = $fopen("modelsimsimon32_64.inputs", "r");
   fh_out = $fopen("simon32_64.outputs","w");
 end 
 
