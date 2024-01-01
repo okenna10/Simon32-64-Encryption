@@ -1,6 +1,6 @@
 ## Simon32/64 Module
-This code offers a light weight 32/64 encryption module. the architecture is shown in the images below. The operation is completely unrolled for maximum
-throughput and latency. As such there are 32 instantiations of the round and key-expansion blocks that feed into each other. A parameterizable testbench is provided which will compare the output values with the corresponding cipher text. 
+This code offers a lightweight 32/64 encryption module. the architecture is shown in the images below. The operation is completely unrolled for maximum
+throughput and latency. As such there are 32 instantiations of the round and key-expansion blocks that feed into each other. A parameterizable testbench is provided which will compare the output values with the corresponding cipher text.
 
 ### High-Level Architecture
 ![image](https://github.com/okenna10/FPGA_exponential_function/assets/101345398/30266687-6cdd-449f-b5fb-228ac344644a)
